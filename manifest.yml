@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: NodejsApp
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 384MB
+  domain: mybluemix.net
+  host: create-project-nqdxk
+  disk_quota: 1024M
+  path: .
